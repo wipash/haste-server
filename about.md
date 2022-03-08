@@ -15,7 +15,7 @@ To make a new entry, click "New" (or hit `Ctrl + N`)
 
 ## From the Console
 
-Sometimes I want to show you some text from my current console session.  
+Sometimes I want to show you some text from my current console session.
 We made it really easy to take code from the console and send it to people.
 
 `cat something | haste` # https://hastebin.com/2107420
@@ -35,13 +35,13 @@ right now.
 
 ## Duration
 
-Pastes will not be removed, however I preseve all rights to make any exceptions.  
+Pastes will not be removed, however I preseve all rights to make any exceptions.
 Contact me directly with any issues about documents uploaded at `zzneix@gmail.com`
 
 ## Privacy
 
-While the contents of haste.zneix.eu are not crawled by any search robot that 
-obeys "robots.txt", there should be no great expectation of privacy.  
+While the contents of haste.zneix.eu are not crawled by any search robot that
+obeys "robots.txt", there should be no great expectation of privacy.
 Post things at your own risk. Not responsible for any removed pastes.
 
 ## Open Source
@@ -57,3 +57,7 @@ Project continued by zneix <zzneix@gmail.com>
 
 Original Code by John Crepezzi <john.crepezzi@gmail.com>
 Key Design by Brian Dawson <bridawson@gmail.com>
+
+## Server
+
+Server run by Holmes Group
