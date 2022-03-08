@@ -36,14 +36,14 @@ module.exports = {
 	//see docs/storage.md for more information
 	"storage": {
 		"type": "postgres",
-		"expire": process.env.PASTE_EXPIRY_SECONDS || 5184000,
+		"expire": parseInt(process.env.PASTE_EXPIRY_SECONDS || 5184000, 10),
 		"clientOptions": {
 			"host": process.env.POSTGRES_HOST || "localhost",
-			"port": process.env.POSTGRES_PORT || 5432,
+			"port": parseInt(process.env.POSTGRES_PORT || 5432, 10),
 			"user": process.env.POSTGRES_USER || "haste",
 			"password": process.env.POSTGRES_PASS || "haste",
 			"database": process.env.POSTGRES_DB || "haste",
-			"ssl": process.env.POSTGRES_USESSL || true
+			"ssl": true
 		}
 	},
 
