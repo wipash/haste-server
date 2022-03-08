@@ -1,10 +1,11 @@
 /* global describe, it */
-
+const os = require('os');
+const path = require('path');
 const fs = require('fs');
 const assert = require('assert');
 const Generator = require('../../lib/key_generators/dictionary');
 
-const tmpPath = '/tmp/haste-server-test-dictionary';
+const tmpPath = path.join(os.tmpdir(), 'haste-server-test-dictionary');
 
 describe('KeyGenerator', () => {
 	describe('dictionary', () => {
